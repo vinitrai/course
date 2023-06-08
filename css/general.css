@@ -1,0 +1,32 @@
+/* general styling  */
+:root {
+  --dominant-color: lightblue;
+  --secondary-color: #fbf7ea;
+  --accent-color: darkblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  background-color: var(--dominant-color);
+}
+@media screen and (min-width: 567px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.125rem;
+  }
+}

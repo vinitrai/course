@@ -1,0 +1,61 @@
+/* benefits & features  */
+.benefits--features--section {
+  padding: 2em 0;
+}
+.benefits {
+  padding: 3em 0;
+}
+
+.features {
+  padding: 1em 0;
+  background-color: var(--secondary-color);
+}
+.features--card--container {
+  padding: 0.5em;
+}
+.features--card {
+  padding: 0.5em;
+  box-shadow: 2px 4px 4px var(--dominant-color);
+}
+.card--icon {
+  color: var(--dominant-color);
+  font-size: 1.4rem;
+}
+.benefits--col {
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+.benefits--col--text {
+  margin-bottom: 1em;
+}
+.benefits--col--image {
+  text-align: center;
+}
+.benefits--col--image img {
+  max-width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .features {
+    margin-top: -2em;
+  }
+  .features--card--container {
+    display: flex;
+    gap: 16px;
+  }
+  .benefits--col {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+
+    min-height: 400px;
+  }
+  .benefits--col--text,
+  .benefits--col--image {
+    flex: 1;
+  }
+  .benefits--col:nth-of-type(1) .benefits--col--image,
+  .benefits--col:nth-of-type(3) .benefits--col--image {
+    order: -1;
+  }
+}

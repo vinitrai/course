@@ -1,0 +1,46 @@
+/* testimonials style */
+.testimonials--section {
+  padding: 2em 0;
+}
+.test--card {
+  background-color: var(--secondary-color);
+  padding: 0.5em;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+.user--quote {
+  padding-bottom: 0.25em;
+  margin-bottom: 0.25em;
+  border-bottom: 2px solid var(--dominant-color);
+}
+.user--quote::before {
+  content: "\201C";
+  color: var(--dominant-color);
+  font-size: 2rem;
+}
+.person--details {
+  display: flex;
+  align-items: center;
+}
+.test--img {
+  width: 50px;
+  height: 50px;
+  padding: 0.25em;
+  background-color: var(--dominant-color);
+  border-radius: 50%;
+}
+.test--img img {
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials--container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+  }
+  .test--card {
+    flex: 0 1 32%;
+  }
+}

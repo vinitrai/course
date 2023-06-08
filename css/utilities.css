@@ -1,0 +1,49 @@
+/* utility classes */
+.container {
+  width: 95%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.hide--item {
+  display: none;
+}
+.btn {
+  display: block;
+  padding: 0.5em 0.6em;
+
+  border-radius: 9px;
+}
+.section--title {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.card--title {
+  font-size: 1.125rem;
+  margin-bottom: 0.25em;
+}
+@media screen and (min-width: 567px) {
+  .section--title {
+    font-size: 1.625rem;
+  }
+  .card--title {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section--title {
+    font-size: 1.75rem;
+  }
+  .card--title {
+    font-size: 1.375rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section--title {
+    font-size: 1.875rem;
+  }
+  .card--title {
+    font-size: 1.5rem;
+  }
+}

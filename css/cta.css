@@ -1,0 +1,11 @@
+/* cta section style  */
+.call {
+  background-color: var(--secondary-color);
+}
+.cta--section {
+  padding: 2em 0;
+  text-align: center;
+}
+.final--cta {
+  display: inline-block;
+}

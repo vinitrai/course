@@ -1,0 +1,27 @@
+/* faq section style  */
+.faq--section {
+  padding: 2em 0;
+}
+.faq--card {
+  padding: 0.25em 0;
+  margin-bottom: 0.25em;
+}
+.faq--container {
+  background-color: var(--secondary-color);
+  max-width: 850px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+}
+.faq--question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq--btn {
+  padding: 0.5em;
+  display: inline;
+  background-color: var(--dominant-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
